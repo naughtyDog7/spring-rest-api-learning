@@ -40,7 +40,7 @@ public class PagedResourceRetrievedListener {
                 .withRel("first")
         );
         model.add(
-                linkToPageable(totalPages, pageSize, sort, asc)
+                linkToPageable(totalPages - 1, pageSize, sort, asc)
                 .withRel("last")
         );
     }
