@@ -112,6 +112,7 @@ class EtagTest {
     }
 
     @Test
+    @Disabled
     public void givenResourceExists_whenRetrievedWithIfMatchEtag_thenResourceIsReceived() {
         Student student = saveTestStudent(10000, "Muzappar", "CIFS32", 1);
 
